@@ -1,0 +1,133 @@
+div#mobile_story_wrap{
+  width: 100%;
+  height: 750px;
+  padding: 50px 16px;
+  box-sizing: border-box;
+}
+
+section#mobile_story_section{
+  width: 100%;
+  height: 100%;
+}
+
+p#mobile_story_title{
+  font: bold 17px 'Noto Sans KR';
+  margin-bottom: 29px;
+}
+
+p#mobile_story_title>span{
+  font: normal 14px 'Noto Sans KR';
+  margin-left: 10px;
+}
+
+div#mobile_story_box{
+  width: 100%;
+  height: 600px;
+}
+
+ul#mobile_story_list{
+  width: 100%;
+  height: 100%;
+}
+
+ul#mobile_story_list>li{
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  margin-bottom: 13px;
+  padding: 20px 27px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.25);
+}
+
+ul#mobile_story_list>li:last-child{
+  margin-bottom: 0px;
+}
+
+p.mobile_story_img{
+  width: 125px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+p.mobile_story_img>img{
+  width: 100%;
+  height: auto;
+}
+
+div.mobile_story_list_wrap{
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  right: 27px;
+}
+
+
+p.mobile_story_list_title{
+  font: bold 13px 'Inter';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+span.mobile_story_btn_short{
+  width: 55px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: #0B4DC5;
+  font: bold 10px/18px 'Inter';
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+span.mobile_story_btn_long{
+  width: 60px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: #0B4DC5;
+  font: bold 10px/18px 'Inter';
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+p.mobile_story_list_text{
+  font: normal 10px 'Inter';
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+p.mobile_story_list_date{
+  font: normal 10px 'Inter';
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+}
+
+p.mobile_story_list_readMore{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font: normal 12px 'Inter';
+}
+
+p.mobile_story_list_readMore>span{
+  font-size: 12px;
+}
+
+
+

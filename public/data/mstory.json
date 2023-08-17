@@ -1,0 +1,34 @@
+[
+  {
+    "id":"001",
+    "title":"Covering",
+    "subTitle":"보양작업",
+    "text":"시공 전에 철저한 보양작업 진행",
+    "date":"2023-08-07",
+    "image":"/images/mobile/Mstory1.png"
+  },
+  {
+    "id":"002",
+    "title":"Demolition",
+    "subTitle":"철거작업",
+    "text":"기존창과 잔여 실리콘 등 완벽하게 이물질을 철거",
+    "date":"2023-08-07",
+    "image":"/images/mobile/Mstory2.png"
+  },
+  {
+    "id":"003",
+    "title":"urethane",
+    "subTitle":"우레탄작업",
+    "text":"창 사이 빈공간이 없도록 우레탄폼 작업",
+    "date":"2023-08-07",
+    "image":"/images/mobile/Mstory3.png"
+  },
+  {
+    "id":"004",
+    "title":"silicon",
+    "subTitle":"실리콘작업",
+    "text":"실리콘으로 깔끔하게 마무리 작업",
+    "date":"2023-08-07",
+    "image":"/images/mobile/Mstory4.png"
+  }
+]

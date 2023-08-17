@@ -1,0 +1,194 @@
+header#mobile_header{
+  width: 100%;
+  height: 50px;
+  background-color: #F5F5F7;
+  padding: 0px 16px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+h1#logo{
+  width: 19%;
+  height: 28px;
+  position: absolute;
+  top: 11px;
+  left: 16px;
+}
+
+h1#logo>a>img{
+  width: 100%;
+  height: auto;
+}
+
+h2#menu_icon{
+  width: 6.25%;
+  height: 24px;
+  position: absolute;
+  top: 11px;
+  right: 16px;
+}
+h2#menu_icon>img{
+  width: 100%;
+  height: auto;
+}
+
+nav#mobile_menu{
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+div#mobile_menu_wrap{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+div#mobile_menu_wrap>p{
+  width: 100%;
+  height: 180px;
+  /* height: 230px; */
+  background-color: #5490ff;
+  padding: 20px 40px;
+  /* padding-bottom: 0px; */
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  font: normal 16px/30px 'Noto Sans KR';
+  color: white;
+}
+
+div#mobile_menu_wrap>p>img{
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+  margin-bottom: 20px;
+}
+
+span#mobile_menu_text{
+  display: block;
+  width: 100%;
+  height: 60px;
+  /* background-color: red; */
+}
+
+p#mobile_profile_wrap{
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+}
+
+p#mobile_profile_wrap>img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+span#mobile_close_btn{
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+  color: white;
+}
+ul#mobile_login_menu{
+  width: 100%;
+  height: 50px;
+  /* background-color: red; */
+}
+
+ul#mobile_login_menu li{
+  width:50%; 
+  height:100%; 
+  background:#a0c1ff; 
+  font:normal 14px/50px "NanumBarunGothic";  
+  text-align:center; 
+  float:left; 
+  border-right:solid 1px white; 
+  box-sizing:border-box;
+  color:white;
+}
+
+
+
+ul#mobileloginmenu li:last-child{
+  border-right:none;
+}
+
+ul#mobile_menu_list{
+  width:100%; 
+  height:500px;
+  /* overflow: hidden;  */
+  background-color: #F1F6FF;
+}
+ul#mobile_menu_list>li{
+  width:100%; 
+  height:55px; 
+  font:normal 14px/55px "Noto Sans KR"; 
+  border-bottom:solid 1px #CBCBCB; 
+  box-sizing:border-box; 
+  text-indent:30px; 
+  position:relative; 
+  left:0px; 
+  top:0px; 
+  overflow:hidden;
+  cursor: pointer;
+  transition:0.3s ease-out;
+}      
+
+span.mobile_sub_menu_icon{
+  display: block;
+  text-align: center;
+  text-indent: 0px;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  transform: rotate(0deg);
+  transition: 0.3s ease;
+  font-size: 20px;
+}
+ul.mobile_sub_menu_list>li{
+  width: 100%;
+  height: 55px;
+  background:#FCFCFC; 
+  font:normal 13px/50px "NanumBarunGothic"; 
+  border-bottom:solid 1px #CBCBCB; 
+  box-sizing:border-box; 
+  text-indent:40px; 
+}
+
+
+
+span.mobile_sub_menu_icon>img{
+  width: 20px;
+  height: auto;
+}
+
+div#mobile_grayLayer{ 
+  width:100%; 
+  height:100vh; 
+  background:black; 
+  opacity:0.8; 
+  position:fixed; 
+  left:0px; 
+  top:0px; 
+}

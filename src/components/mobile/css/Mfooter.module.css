@@ -1,0 +1,77 @@
+footer#mobile_footer{
+  width: 100%;
+  height: 150px;
+  background-color: #0D3A8C;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+h1#mobile_footer_logo{
+  margin: 0px auto;
+  width: 19%;
+  height: 28px;
+}
+
+h1#mobile_footer_logo>img{
+  width: 100%;
+  height: auto;
+}
+
+p#mobile_footer_nav{
+  width: 240px;
+  height: 20px;
+  margin: 15px auto;
+}
+
+nav#mobile_footer_menu{
+  width: 100%;
+  height: 100%;
+}
+
+ul#mobile_footer_menu_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+ul#mobile_footer_menu_list>li>a{
+  font: normal 10px/20px 'Noto Sans KR';
+  color: white;
+}
+
+
+p#mobile_footer_sns_wrap{
+  width: 100px;
+  height: 13px;
+  margin: 0 auto;
+}
+
+ul#moblie_footer_sns_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+ul#moblie_footer_sns_list>li>a{
+  font-size: 14px;
+  color: white;
+}
+
+
+p#mobile_copyright{
+  font: normal 9px/10px 'Noto Sans KR';
+  text-align: center;
+  margin-top: 18px;
+  color: white;
+}

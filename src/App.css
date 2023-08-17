@@ -1,0 +1,15 @@
+.hidden{
+  width: 1px;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}

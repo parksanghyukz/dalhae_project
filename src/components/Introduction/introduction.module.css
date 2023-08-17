@@ -1,0 +1,174 @@
+div#introduction_wrap{
+  width: 100%;
+  height: 700px;
+  background-color: #C1D6FC;
+}
+
+section#introduction_section{
+  /* width: 1280px; */
+  width: 66%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: red; */
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 90px 0px;
+  box-sizing: border-box;
+}
+
+div#introduction_text_wrap{
+  width: 430px;
+  /* width: 57%; */
+  /* width: 40%; */
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  text-align: justify;
+}
+
+div#introduction_img{
+  width: 550px;
+  height: 400px;
+  /* background-color: yellow; */
+  position: absolute;
+  right: 0;
+  top: 90px;
+  border-radius: 20px;
+}
+div#introduction_img>img{
+  width: 100%;
+  height: auto;
+}
+
+p#introduction_title{
+  font: bold 2em 'Noto Sans KR';
+}
+
+p#introduction_text{
+  /* width: 430px; */
+  width: 100%;
+  height: auto;
+  font: normal 1em/24px 'Noto Sans KR';
+  color: #3F3F3F;
+  margin-top: 25px;
+}
+
+p#introduction_text_2{
+  /* width: 430px; */
+  width: 100%;
+  height: auto;
+  font: normal 1em/24px 'Noto Sans KR';
+  color: #3F3F3F;
+  margin-top: 25px;
+}
+
+
+button#introduction_btn{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  height: 50px;
+  background-color: #39A1AB;
+  border-radius: 20px;
+}
+button#introduction_btn>a{
+  font: normal 16px/50px 'Noto Sans KR';
+  color: white;
+}
+
+
+div#introduction_list_wrap{
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  /* width: 1120px; */
+  width: 87.5%;
+  height: 90px;
+  /* background-color: white; */
+}
+
+ul#introduction_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul#introduction_list>li{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+p.introduction_list_number{
+  font: bold 2.5em/50px 'Noto Sans KR';
+  color: #0B4DC5;
+}
+
+p.introduction_list_text{
+  font: normal 1em/40px 'Noto Sans KR';
+  color: #000000;
+}
+
+.introduction_list_plus{
+  position: absolute;
+  right: -40%;
+  top: 5px;
+  font-size: 3.13em;
+  color: white;
+}
+
+
+@media screen and (max-width:1600px) {
+  div#introduction_img{
+    width: 43%;
+  }
+}
+
+@media screen and (max-width:1400px){
+  ul#introduction_list>li{
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  section#introduction_section{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:980px) {
+  div#introduction_wrap{
+    height: 600px;
+  }
+  section#introduction_section{
+    width: 85%;
+  }
+    div#introduction_text_wrap{
+    font-size: 14px;
+    height: 300px;
+  }
+  p#introduction_text{
+    width: 80%;
+  }
+  p#introduction_text_2{
+    display: none;
+  }
+  div#introduction_list_wrap{
+    width: 100%;
+  }
+  button#introduction_btn{
+    width: 120px;
+  }
+  .introduction_list_plus{
+    right: -10%;
+  }
+
+
+}

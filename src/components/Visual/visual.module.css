@@ -1,0 +1,146 @@
+div#visual_wrap{
+  width: 100%;
+  height: 925px;
+
+}
+
+section#main_visual{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+div#main_visual_img{
+  width: 100%;
+  height: 100%;
+  background:url('../../../public/images/mainvisual.png');
+}
+
+div#main_visual_img2{
+  width: 100%;
+  height: 100%;
+  background:url('../../../public/images/mainvisual2.png');
+}
+
+div#main_visual_img3{
+  width: 100%;
+  height: 100%;
+  background:url('../../../public/images/mainvisual3.png');
+}
+div#main_visual_img4{
+  width: 100%;
+  height: 100%;
+  background:url('../../../public/images/mainvisual4.png');
+}
+
+
+
+div.main_visual_text_wrap{
+  /* width: 1200px; */
+  width: 62.5%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  top: 460px;
+}
+
+
+p.main_visual_title{
+  /* position: absolute;
+  top: 460px;
+  left: 50%; */
+  /* margin-left: -600px; */
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font: bold 2.63em/60px 'Noto Sans KR';
+  color: white;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+p.main_visual_text{
+  /* position: absolute;
+  top: 540px;
+  left: 50%;
+  margin-left: -600px; */
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font: bold 1.38em/40px 'Noto Sans KR';
+  color: white;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+div#auto_play_wrap{
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -125px;
+  width: 180px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+button{
+  width: 25px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7); */
+  color: rgba(114, 114, 114, 0.5);
+  cursor: pointer;
+}
+
+button#prev_btn,button#next_btn,button#stop_btn{
+  font-size: 25px;
+}
+
+div#auto_play_wrap>span{
+  font: bold 16px/25px 'Noto Sans KR';
+  color: black;
+}
+
+
+@media screen and (max-width:1200px) {
+  div#visual_wrap{
+    height: 800px;
+  }
+  div.main_visual_text_wrap{
+    top: 330px;
+    width: 80%;
+    font-size: 14px;
+  }
+  /* div#auto_play_wrap{
+    top: 270px;
+  } */
+}
+
+@media screen and (max-width:980px) {
+  div#visual_wrap{
+    height: 700px;
+  }
+  div.main_visual_text_wrap{
+    top: 280px;
+    font-size: 12px;
+  }
+  /* div#auto_play_wrap{
+    top: 220px;
+  } */
+}
+
+
+
+
+
+
+
+
+

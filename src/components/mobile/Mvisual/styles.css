@@ -1,0 +1,8 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+:root{
+  /* 스와이퍼 좌우버튼 사이즈 조절하기 */
+  --swiper-navigation-size: 30px
+}

@@ -1,0 +1,222 @@
+div#mobile_product_wrap{
+  width: 100%;
+  height: 320px;
+  /* height: 350px; */
+  padding: 50px 16px;
+  box-sizing: border-box;
+}
+
+section#mobile_product_section{
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+div#mobile_product_title_wrap{
+  width: 100%;
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+p#mobile_product_title{
+  font: bold 15px/25px 'Noto Sans KR';
+}
+
+p#mobile_product_title>span{
+  font: normal 12px 'Noto Sans KR';
+  margin-left: 8px;
+}
+
+p#mobile_product_text{
+  font: normal 11px/20px 'Noto Sans KR';
+  color: #444444;
+}
+
+
+/* 스와이퍼에 관련된 css */
+div#mobile_product_list_wrap{
+  /* width: 350px; */
+  width: 100%;
+  height: 150px;
+  /* background-color: red; */
+}
+
+.mobile_product_swiper{
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  /* overflow: hidden; */
+}
+
+.mobile_product_slide{
+  width: 80%;
+  height: 100%;
+  /* background-color: blue; */
+  position:relative;
+  left:0px;
+  top:0px; 
+}
+
+
+.mobile_product_slide {
+  width: 80%;
+}
+
+.mobile_product_slide:nth-child(2) {
+  width: 70%;
+}
+
+/* .mobile_product_slide:nth-child(3) {
+  width: 80%;
+} */
+
+
+.mobile_product_slide>a>img {
+  width: 100%;
+  height: auto;
+}
+
+/* .mobile_product_slide>img::before{
+  display: block;
+  content: "창호";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+} */
+
+.mobile_product_slide:nth-child(1)::after{
+  display: block;
+  content: "창호";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+
+.mobile_product_slide:nth-child(2)::after{
+  display: block;
+  content: "유리";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+
+.mobile_product_slide:nth-child(3)::after{
+  display: block;
+  content: "현관문";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+
+/* div.mobile_slide_wrap{
+  width: 250px;
+  height: 100px;
+} */
+
+/* ul#mobile_product_img_list{
+  width: 810px;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+} */
+
+/* ul#mobile_product_img_list li{
+  width: 250px;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+
+
+
+/* ul#mobile_product_img_list li:nth-child(1)::before{
+  display: block;
+  content: "창호";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+ul#mobile_product_img_list li:nth-child(2)::before{
+  display: block;
+  content: "유리";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+ul#mobile_product_img_list li:last-child::before{
+  display: block;
+  content: "현관문";  
+  font: bold 12px/30px 'Inter';
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 45px;
+  height: 30px;
+  background-color: #0B4DC5;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+
+ul#mobile_product_img_list li:last-child{
+  margin-right: 0px;
+}
+
+ul#mobile_product_img_list>li>img{
+  width: 100%;
+  height: auto;
+} */

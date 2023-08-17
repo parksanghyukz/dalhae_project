@@ -1,0 +1,487 @@
+div#mobile_aboutItem_visual_wrap{
+  width: 100%;
+  height: 100px;
+  background:url('/public/images/mobile/Msuvvisual.jpg') center no-repeat;
+  object-fit: cover;
+  padding: 30px 0px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+p#mobile_aboutItem_visual_title{
+  font: bold 16px'Noto Sans KR';
+  text-align: center;
+  color: white;
+  /* margin; */
+}
+
+p#mobile_aboutItem_visual_text{
+  font: normal 10px 'Noto Sans KR';
+  text-align: center;
+  color: white;
+}
+
+
+div#mobile_aboutItemDetail_info_wrap{
+  width: 100%;
+  height: 680px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+section#mobile_aboutItemDetail_info_section{
+  width: 100%;
+  height: 100%;
+}
+
+div#mobile_info_section_img_wrap{
+  width: 100%;
+  height: 300px;
+}
+
+div#mobile_info_section_img_box{
+  width: 100%;
+  height: 300px;
+  background-color: #ececec;
+}
+
+p#mobile_aboutItemDetail_info_img{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+p#mobile_aboutItemDetail_info_img>img{
+  width: 100%;
+  height: auto;
+}
+
+/* 이미지리스트 수정 */
+/* ul#mobile_info_section_img_list{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+ul#mobile_info_section_img_list>li{
+  border: 1px solid black;
+}
+
+div#mobile_info_section_font_wrap{
+  width: 100%;
+  height: 300px;
+}
+
+div#mobile_info_section_title_wrap{
+  margin-top: 30px;
+  width: 100%;
+  height: 60px;
+}
+
+p#mobile_aboutItemDetail_info_title{
+  font: bold 16px/30px 'Inter';
+  text-align: center;
+  color: #0B4DC5;;
+}
+p#mobile_aboutItemDetail_info_name{
+  font: normal 18px/30px 'Inter';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+div.mobile_info_section_text_wrap{
+  width: 100%;
+  height: 60px;
+}
+p.mobile_aboutItemDetail_info_text{
+  width: 100%;
+  font: bold 15px/30px 'Inter';
+}
+
+p.mobile_aboutItemDetail_info_sub_text{
+  width: 100%;
+  font: normal 12px 'Inter';
+  margin: 10px 0px;
+}
+
+div#mobile_aboutItemDetail_contents_wrap{
+  width: 100%;
+  min-height: 1500px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+section#mobile_aboutItemDetail_contents_top_section{
+  width: 100%;
+  height: 300px;
+  background-color: #FDFDFD;
+  padding: 20px 30px;
+  border-top: 1px solid black;
+  box-sizing: border-box;
+}
+
+p#mobile_aboutItemDetail_contents_logo{
+  width: 150px;
+  height: 56px;
+  margin: 0 auto;
+  background:url('/public/images/dalhaelogo.jpg')no-repeat center;
+}
+
+p.mobile_aboutItemDetail_contents_normal_title{
+  font: normal 16px 'Inter';
+  color: #ACA9A9;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+p.mobile_aboutItemDetail_contents_bold_title{
+  font: bold 16px 'Inter';
+  color: black;
+  text-align: center;
+}
+
+
+section#mobile_aboutItemDetail_contents_bottom_section{
+  width: 100%;
+  height: 300px;
+  background-color: #2d6adb;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+p#mobile_aboutItemDetail_contents_img{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+  top: -125px;
+  z-index: 9;
+  background-color: #f8f8f8;
+}
+
+p#mobile_aboutItemDetail_contents_img>img{
+  width: 100%;
+  height: auto;
+}
+
+
+div#mobile_aboutItemDetail_contents_list_box{
+  width: 100%;
+  height: 175px;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+
+
+ul#mobile_aboutItemDetail_contents_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul#mobile_aboutItemDetail_contents_list>li{
+  width: 45%;
+  height: 50px;
+  background-color: #5e92f1;
+  padding: 5px 0px;
+  box-sizing: border-box;
+}
+
+ul#mobile_aboutItemDetail_contents_list>li:nth-child(3),
+ul#mobile_aboutItemDetail_contents_list>li:last-child{
+  margin-top: 15px;
+}
+
+p.mobile_aboutItemDetail_contents_list_Num{
+  font: normal 12px 'Noto Sans KR';
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.mobile_aboutItemDetail_contents_list_title{
+  font: bold 14px 'Noto Sans KR';
+  color: white;
+  text-align: center;
+}
+
+section#mobile_aboutItemDetail_contents_detail_section{
+  width: 100%;
+  min-height: 1000px;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+
+
+div#mobile_detail_section_text_wrap{
+  width: 100%;
+  height: 210px;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+
+p#mobile_detail_section_title{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #0B4DC5;
+  margin: 0 auto;
+  text-align: center;
+  font: normal 16px/30px 'Inter';
+  color: white;
+  text-transform: uppercase;
+}
+
+
+p#mobile_detail_section_text{
+  margin: 20px 0px;
+  font: bold 16px/30px 'Inter';
+  text-align: center;
+}
+
+p#mobile_detail_section_text>span{
+  color: #0B4DC5;
+}
+
+p#mobile_detail_section_subtext{
+  width: 100%;
+  height: 60px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  font: normal 12px/20px 'Inter';
+  text-align: justify;
+}
+
+div#mobile_detail_section_visual{
+  width: 308px;
+  height: 190px;
+  background:url('../../../../public/images/mobile/Mdetailvisual.jpg') no-repeat center;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+
+div#mobile_detail_list_wrap{
+  width: 100%;
+  height: 420px;
+}
+
+ul#mobile_detail_list{
+  width: 100%;
+  height: 100%;
+}
+
+ul#mobile_detail_list>li{
+  width: 100%;
+  height: 100px;
+  background-color: #FDFDFD;
+}
+
+ul#mobile_detail_list>li:nth-child(3){
+  margin-bottom: 20px;
+}
+
+
+p.mobile_detail_list_Num{
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #0B4DC5;
+  font: normal 14px/25px 'Inter';
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+p.mobile_detail_list_title{
+  font: bold 13px/20px 'Inter';
+  margin-bottom: 5px;
+}
+
+
+p.mobile_detail_list_text{
+  font: normal 11px/15px 'Inter';
+  text-align: justify;
+}
+
+div#mobile_detail_visual{
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+}
+div#mobile_detail_visual>p{
+  width: 100%;
+  height: 100%;
+  background:url('/public/images/mobile/Mdetail_sub_visual.png')no-repeat center;
+  object-fit: cover;
+}
+
+div#mobile_detail_visual_title_wrap{
+  width: 100%;
+  height: 60px;
+}
+
+p#mobile_detail_visual_title{
+  font: normal 16px/30px 'Inter';
+  text-align: center;
+}
+
+p#mobile_detail_visual_text{
+  font: normal 14px/30px 'Inter';
+  color: #979797;
+  text-align: center;
+}
+
+div#mobile_aboutItemDetail_spec_wrap{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;;
+  padding: 20px 16px;
+}
+
+table#mobile_aboutItemDetail_spec_table{
+  width: 100%;
+  height: 100px;
+  border-bottom: 3px solid black;
+  box-sizing: border-box;
+}
+
+caption#mobile_aboutItemDetail_spec_caption{
+  font: bold 16px/30px 'Inter';
+  text-align: center;
+  border-bottom: 3px solid black;
+  box-sizing: border-box;
+}
+
+tr.mobile_aboutItemDetail_spec{
+  width: 100%;
+  height: 25px;
+  /* background-color: blue; */
+  border-bottom: 1px dotted black;
+}
+
+th.mobile_aboutItemDetail_spec_title{
+  width: 70px;
+  height: auto;
+  font: normal 14px/25px 'Inter';
+  font-weight: 700;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+td.mobile_aboutItemDetail_spec_text{
+  width: auto;
+  height: auto;
+  font: normal 12px/25px 'Inter';
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border-left: 1px dotted black;
+}
+
+div#mobile_back_aboutItem_wrap{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+button#mobile_back_aboutItem_btn{
+  width: 70px;
+  height: 30px;
+  background-color: #0B4DC5;
+  font: bold 14px/30px 'Inter';
+  color: white;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  top: 50%;
+  margin-top: -15px;
+}
+
+
+
+/* 스와이퍼 css */
+/* 스와이퍼 관련 css */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  /* background: #000; */
+  /* color: #000; */
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
