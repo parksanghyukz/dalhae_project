@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from './Mcontact.module.css'
 
+const submit=()=>{
+  alert('문의내용 접수되었습니다!')
+}
+
 
 export default function Mcontact() {
   return (
@@ -19,7 +23,7 @@ export default function Mcontact() {
               <input id={styles.mobile_contact_name} placeholder='이름' maxLength='10'/>
               <input id={styles.mobile_contact_tel} placeholder='연락처'/>
               <textarea id={styles.mobile_contact_contents} placeholder='문의내용'></textarea>
-              <button id={styles.mobile_submit_btn}>submit now</button>
+              <button id={styles.mobile_submit_btn} onClick={submit}>submit now</button>
             </form>
           </div>
         </section>
