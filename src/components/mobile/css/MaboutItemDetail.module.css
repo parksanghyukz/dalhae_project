@@ -275,7 +275,8 @@ div#mobile_detail_section_visual{
 
 div#mobile_detail_list_wrap{
   width: 100%;
-  height: 420px;
+  /* height: 435px; */
+  height: auto;
 }
 
 ul#mobile_detail_list{
@@ -285,12 +286,13 @@ ul#mobile_detail_list{
 
 ul#mobile_detail_list>li{
   width: 100%;
-  height: 100px;
+  height: auto;
+  margin-bottom: 30px;
   background-color: #FDFDFD;
 }
 
 ul#mobile_detail_list>li:nth-child(3){
-  margin-bottom: 20px;
+  /* margin-bottom: 35px; */
 }
 
 
@@ -303,7 +305,7 @@ p.mobile_detail_list_Num{
   color: white;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 p.mobile_detail_list_title{

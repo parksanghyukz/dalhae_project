@@ -83,7 +83,7 @@ const navigate = useNavigate()
           </p>  
           {/* <p style={{position:'absolute',top:'40px', right:'50px', fontSize:'20px',fontWeight:'bold'}}>{user.displayName}님 환영합니다</p> */}
           <p id={styles.login_text}>
-            {user.displayName}님 환영합니다.
+            {user.displayName}님
           </p>
           <button id={styles.login_btn} onClick={logout}>Logout</button>
         </>  
