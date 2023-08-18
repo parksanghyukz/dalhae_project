@@ -1,7 +1,9 @@
 import React from 'react'
-
+import styles from '../components/css/aboutUs.module.css'
 export default function AboutUs() {
   return (
-    <div>AboutUs zzzz</div>
+    <>
+      <div></div>
+    </>
   )
 }
