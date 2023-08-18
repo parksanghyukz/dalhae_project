@@ -117,13 +117,11 @@ export default function MaboutItem() {
             categoryItems.map((item)=>(
               <li>
                 <Link to={{ pathname: `/MaboutItem/${item.id}` ,search: `?${createSearchParams({ category: item.category})}`}} >
-                  <div className={styles.mobile_aboutItem_box}>
                     <p className={styles.mobile_aboutItem_contents_img}>
                       <img src={item.image} alt='제품이미지'/>
                     </p>
                     <p className={styles.mobile_aboutItem_contents_title}>{item.title}</p>
                     <p className={styles.mobile_aboutItem_contents_text}>{item.text}</p>    
-                  </div>
                 </Link>
               </li>
             ))
