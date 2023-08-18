@@ -15,9 +15,9 @@ export default function Mcontact() {
             Contact Us <span>간편문의</span>
           </p>
           <div id={styles.mobile_contact_form_wrap}>
-            <p id={styles.mobile_contact_form_title}>
+            {/* <p id={styles.mobile_contact_form_title}>
               주소
-            </p>
+            </p> */}
             <form id={styles.mobile_contact_form}>
               <input id={styles.mobile_contact_address} placeholder='주소를 입력하세요'/>
               <input id={styles.mobile_contact_name} placeholder='이름' maxLength='10'/>

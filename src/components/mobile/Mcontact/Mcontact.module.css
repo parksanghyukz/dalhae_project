@@ -26,13 +26,13 @@ div#mobile_contact_form_wrap{
   width: 100%;
   height: 300px;
   background-color: #C1D6FC;
-  padding: 20px 30px;
+  padding: 30px 30px;
   box-sizing: border-box;
 }
 
-p#mobile_contact_form_title{
+/* p#mobile_contact_form_title{
   font: normal 14px 'Inter';
-}
+} */
 
 form#mobile_contact_form{
   width: 100%;
