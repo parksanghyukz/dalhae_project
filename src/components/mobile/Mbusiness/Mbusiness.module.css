@@ -1,26 +1,26 @@
 div#mobile_business_wrap{
   width: 100%;
-  height: 200px;
+  height: 220px;
   /* background-color: red; */
 }
 
 section#mobile_business_section{
   width: 100%;
-  height: 162px;
-  padding: 0px 16px;
+  height: 180px;
+  padding: 0px 20px;
   box-sizing: border-box;
   background-color: #E1ECFF;
 }
 
 p#mobile_business_title{
-  font: bold 15px 'Noto Sans KR';
+  font: bold 19px 'Noto Sans KR';
   background-color: white;
   margin-left: 16px;
   margin-bottom: 16px;
 }
 
 p#mobile_business_title>span{
-  font: normal 12px 'Noto Sans KR';
+  font: normal 16px 'Noto Sans KR';
   margin-left: 10px;
 }
 
@@ -35,11 +35,11 @@ div#mobile_business_text_wrap{
 }
 
 p#mobile_business_text{
-  font: bold 12px 'Noto Sans KR';
+  font: bold 16px 'Noto Sans KR';
 }
 
 p#mobile_business_sub_text{
-  font: normal 9px 'Noto Sans KR';
+  font: normal 13px 'Noto Sans KR';
   margin: 10px 0px;
 }
 
@@ -50,7 +50,7 @@ button#mobile_business_btn{
   background-color: #39A1AB;
   color: white;
   border-radius: 10px;
-  font: normal 11px/25px 'Noto Sans KR' ;
+  font: normal 13px/25px 'Noto Sans KR' ;
 }
 
 p#mobile_business_img{

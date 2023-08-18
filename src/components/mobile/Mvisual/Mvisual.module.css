@@ -50,7 +50,7 @@ div#mobile_main_visual_img5{
 }
 
 p.mobile_main_visual_title{
-  font: bold 18px 'Noto Sans KR';
+  font: bold 22px 'Noto Sans KR';
   text-align: center;
   color: white;
   text-shadow: 0px 1px 1px #000000;
@@ -58,7 +58,7 @@ p.mobile_main_visual_title{
 }
 
 p.mobile_main_visual_text{
-  font: normal 10px 'Noto Sans KR';
+  font: normal 14px 'Noto Sans KR';
   text-align: center;
   color: white;
   text-shadow: 0px 1px 1px #000000;

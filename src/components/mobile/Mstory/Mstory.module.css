@@ -11,12 +11,12 @@ section#mobile_story_section{
 }
 
 p#mobile_story_title{
-  font: bold 17px 'Noto Sans KR';
+  font: bold 19px 'Noto Sans KR';
   margin-bottom: 29px;
 }
 
 p#mobile_story_title>span{
-  font: normal 14px 'Noto Sans KR';
+  font: normal 16px 'Noto Sans KR';
   margin-left: 10px;
 }
 
@@ -61,7 +61,7 @@ p.mobile_story_img>img{
 }
 
 div.mobile_story_list_wrap{
-  width: 130px;
+  width: 140px;
   height: 100px;
   position: absolute;
   top: 20px;
@@ -70,7 +70,7 @@ div.mobile_story_list_wrap{
 
 
 p.mobile_story_list_title{
-  font: bold 13px 'Inter';
+  font: bold 15px 'Inter';
   position: absolute;
   top: 0;
   left: 0;
@@ -94,7 +94,7 @@ span.mobile_story_btn_long{
   height: 18px;
   border-radius: 10px;
   background-color: #0B4DC5;
-  font: bold 10px/18px 'Inter';
+  font: bold 14px/18px 'Inter';
   text-align: center;
   color: white;
   position: absolute;
@@ -103,18 +103,20 @@ span.mobile_story_btn_long{
 }
 
 p.mobile_story_list_text{
-  font: normal 10px 'Inter';
-  width: 120px;
-  height: auto;
+  font: normal 14px/18px 'Inter';
+  width: 140px;
+  height: 36px;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 0;
 }
 
 p.mobile_story_list_date{
-  font: normal 10px 'Inter';
+  font: normal 14px 'Inter';
   position: absolute;
-  bottom: 28px;
+  bottom: 20px;
   left: 0;
 }
 
@@ -122,11 +124,11 @@ p.mobile_story_list_readMore{
   position: absolute;
   bottom: 0;
   right: 0;
-  font: normal 12px 'Inter';
+  font: normal 16px 'Inter';
 }
 
 p.mobile_story_list_readMore>span{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 

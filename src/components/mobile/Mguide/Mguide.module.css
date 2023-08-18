@@ -26,6 +26,7 @@ ul#mobile_guide_list>li{
   float: left;
   margin-right: 33px;
   margin-bottom: 33px;
+  padding: 20px;
 }
 
 ul#mobile_guide_list>li:nth-child(2n){
@@ -33,15 +34,15 @@ ul#mobile_guide_list>li:nth-child(2n){
 }
 
 p.mobile_guide_title{
-  font: bold 15px 'Noto Sans KR';
+  font: bold 19px 'Noto Sans KR';
   text-align: center;
-  margin: 20px 0px;
+  margin-top: 10px 
 }
 
 p.mobile_guide_text{
-  font: normal 10px 'Noto Sans KR';
+  font: normal 14px 'Noto Sans KR';
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 p.mobile_guide_icon{

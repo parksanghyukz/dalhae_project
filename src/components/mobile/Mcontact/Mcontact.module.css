@@ -13,12 +13,12 @@ section#mobile_contact_section{
 }
 
 p#mobile_contact_title{
-  font: bold 15px 'Noto Sans KR';
+  font: bold 19px 'Noto Sans KR';
   margin-bottom: 13px;
 }
 
 p#mobile_contact_title>span{
-  font: normal 12px 'Noto Sans KR';
+  font: normal 16px 'Noto Sans KR';
   margin-left: 10px;
 }
 
