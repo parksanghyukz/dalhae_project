@@ -44,6 +44,7 @@ ul#mainmenu_list>li{
   left: 0;
   font: normal 1.13em 'Noto Sans KR';
   color: black;
+  cursor: pointer;
 }
 
 

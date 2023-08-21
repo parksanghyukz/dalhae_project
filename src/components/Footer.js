@@ -66,7 +66,7 @@ export default function Footer() {
               <li><Link to='/AboutUs'>업체소개</Link></li>
               <li><Link to={{ pathname: `/AboutItem`, search: `?${createSearchParams({ category: 'ALL' })}`}}>제품소개</Link></li>
               <li><Link to='/Online'>온라인문의</Link></li>
-              <li><Link to='/Community'>커뮤니티</Link></li>
+              <li><Link to='/Construction'>시공소개</Link></li>
               <li><Link to='/CustomerCenter'>고객센터</Link></li>
             </ul>
           </nav>
