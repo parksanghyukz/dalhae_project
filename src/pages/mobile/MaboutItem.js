@@ -13,12 +13,21 @@ export default function MaboutItem() {
 
   const [allProducts, setAllProducts] = useState([])
 
-  // 이건 로컬이 아닌 db에서 데이터 불러오기!
   useEffect(()=>{
-    getProducts().then((res)=>{
-      setAllProducts(res)
+    axios.get('/data/products.json').then((res)=>{
+      setAllProducts(res.data)
     })
-  })
+  }, [])
+
+
+  // const [allProducts, setAllProducts] = useState([])
+
+  // // 이건 로컬이 아닌 db에서 데이터 불러오기!
+  // useEffect(()=>{
+  //   getProducts().then((res)=>{
+  //     setAllProducts(res)
+  //   })
+  // })
 
   const categorys = [
     {index:0, text:'ALL'},
