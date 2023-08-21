@@ -12,23 +12,23 @@ export default function AboutItem() {
 
   // 1. data폴더에 만들어 놓은 json파일 불러오기
 
-  // const [allProducts, setAllProducts] = useState([])
-
-  // useEffect(()=>{
-  //   axios.get('/data/products.json').then((res)=>{
-  //     setAllProducts(res.data)
-  //   })
-  // }, [])
-
-  
-  // 이건 로컬에서 만든 json이 아닌 db에서 불러오기!
   const [allProducts, setAllProducts] = useState([])
 
   useEffect(()=>{
-    getProducts().then((res)=>{
-      setAllProducts(res)
+    axios.get('/data/products.json').then((res)=>{
+      setAllProducts(res.data)
     })
-  })
+  }, [])
+
+  
+  // 이건 로컬에서 만든 json이 아닌 db에서 불러오기!
+  // const [allProducts, setAllProducts] = useState([])
+
+  // useEffect(()=>{
+  //   getProducts().then((res)=>{
+  //     setAllProducts(res)
+  //   })
+  // })
 
   // 2. category의 순번과 제목 적어주기
   const categorys = [
