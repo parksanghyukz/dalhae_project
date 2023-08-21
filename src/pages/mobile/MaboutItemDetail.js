@@ -3,7 +3,7 @@ import styles from '../../components/mobile/css/MaboutItemDetail.module.css'
 import { useNavigate, useParams } from 'react-router-dom';
 import useCategory from '../../Hooks/useCategory';
 import { getProducts } from '../../api/firebase';
-
+import axios from 'axios'
 
 
 
