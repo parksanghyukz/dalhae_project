@@ -19,15 +19,15 @@ export default function AboutItemDetail() {
   // 1. AboutItem.js에서 보내준 Id값을 useParams를 사용해 받아온다
   const {productId} = useParams()
 
-  // const [allProducts, setAllProducts] = useState([])
+  const [allProducts, setAllProducts] = useState([])
 
 
-  // // 2. 모든 json을 뿌려준다
-  // useEffect(()=>{
-  //   axios.get('/data/products.json').then((res)=>{
-  //     setAllProducts(res.data)
-  //   })
-  // }, [])
+  // 2. 모든 json을 뿌려준다
+  useEffect(()=>{
+    axios.get('/data/products.json').then((res)=>{
+      setAllProducts(res.data)
+    })
+  }, [])
 
 
   // 만들놓은 Hook을 사용해서 로컬의 json파일 가져오기!
@@ -36,13 +36,13 @@ export default function AboutItemDetail() {
 
   
   // 이건 db에 올려둔 json파일 가져오기!
-  const [allProducts, setAllProducts] = useState([])
+  // const [allProducts, setAllProducts] = useState([])
 
-  useEffect(()=>{
-    getProducts().then((res)=>{
-      setAllProducts(res)
-    })
-  })
+  // useEffect(()=>{
+  //   getProducts().then((res)=>{
+  //     setAllProducts(res)
+  //   })
+  // })
 
 
 
