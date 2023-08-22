@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './css/Mfooter.module.css'
-import { Link, createSearchParams, useNavigate } from 'react-router-dom'
+import { Link, createSearchParams, useLocation, useNavigate } from 'react-router-dom'
 import { AiFillFacebook,AiOutlineTwitter,AiFillYoutube,AiOutlineInstagram,AiOutlineGoogle } from 'react-icons/ai';
 
 export default function Mfooter() {
 
+  // 제품소개를 눌렀을때 'ALL'로 이동하기 위해 useNavigate를 사용함
   const navigate = useNavigate();
 
+
+  // pathname이 변경될경우에 맨위로 스크롤을 이동시켜준다!
+  const {pathname} = useLocation()
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  }, [pathname])
 
   return (
     <div>
