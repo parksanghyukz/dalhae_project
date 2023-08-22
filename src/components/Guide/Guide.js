@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Guide() {
   return (
     <div id={styles.guide_wrap}>
+      <h2 className='hidden'>guide영역</h2>
       <section id={styles.guide_section}>
         <ul id={styles.guide_list}>
           <li>

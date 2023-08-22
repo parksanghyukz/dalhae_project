@@ -16,6 +16,7 @@ export default function Product() {
     <>
       <div id={styles.product_box}>
         <section id={styles.product_section}>
+          <h2 className='hidden'>product영역</h2>
           <div id={styles.product_title_wrap}>
             <p id={styles.product_title}>Our Product</p>
             <p id={styles.product_subTitle}>제품소개</p>
@@ -27,7 +28,7 @@ export default function Product() {
               <li>
                 <Link to={{ pathname: `/AboutItem`, search: `?${createSearchParams({ category: '창호' })}`}}>
                   <p className={styles.product_contents_img}>
-                    <img src='../../images/product00.png'/>
+                    <img src='../../images/product00.png' alt='창호이미지'/>
                   </p>
                   <p className={styles.product_contents_title}>창호</p>
                   <button className={styles.product_contents_btn}>자세히보기</button>
@@ -36,7 +37,7 @@ export default function Product() {
               <li>
               <Link to={{ pathname: `/AboutItem`, search: `?${createSearchParams({ category: '유리'})}`}}>
                   <p className={styles.product_contents_img}>
-                    <img src='../../images/product01.png'/>
+                    <img src='../../images/product01.png' alt='유리이미지'/>
                   </p>
                   <p className={styles.product_contents_title}>유리</p>
                   <button className={styles.product_contents_btn}>자세히보기</button>
@@ -45,7 +46,7 @@ export default function Product() {
               <li>
                 <Link to={{ pathname: `/AboutItem`, search: `?${createSearchParams({ category: '현관문'})}`}}>
                   <p className={styles.product_contents_img}>
-                    <img src='../../images/product02.png'/>
+                    <img src='../../images/product02.png' alt='현관문이미지'/>
                   </p>
                   <p className={styles.product_contents_title}>현관문</p>
                   <button className={styles.product_contents_btn}>자세히보기</button>

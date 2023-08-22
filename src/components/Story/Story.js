@@ -8,6 +8,7 @@ export default function Story() {
   return (
     <div id={styles.story_box}>
       <section id={styles.story_section}>
+      <h2 className='hidden'>story영역</h2>
         <div id={styles.story_title_wrap}>
           <p id={styles.story_title}>Our Story</p>
           <p id={styles.story_text}>작업현장사진</p>
@@ -17,7 +18,7 @@ export default function Story() {
             <li>
               <Link to='/Construction'>
                 <p className={styles.story_img}>
-                  <img src='../../images/story00.png'/>
+                  <img src='../../images/story00.png' alt='보양작업이미지'/>
                 </p>
                 <p className={styles.story_img_thema}>
                   보양작업
@@ -34,7 +35,7 @@ export default function Story() {
             <li>
               <Link to='/Construction'>
                 <p className={styles.story_img}>
-                  <img src='../../images/story01.png'/>
+                  <img src='../../images/story01.png' alt='이물질철거이미지'/>
                 </p>
                 <p className={styles.story_img_thema}>
                   이물질 철거
@@ -51,7 +52,7 @@ export default function Story() {
             <li>
               <Link to='/Construction'>
                 <p className={styles.story_img}>
-                  <img src='../../images/story02.png'/>
+                  <img src='../../images/story02.png' alt='우레탄작업이미지'/>
                 </p>
                 <p className={styles.story_img_thema}>
                   우레탄작업
@@ -68,7 +69,7 @@ export default function Story() {
             <li>
               <Link to='/Construction'>
                 <p className={styles.story_img}>
-                  <img src='../../images/story03.png'/>
+                  <img src='../../images/story03.png' alt='실리콘작업이미지'/>
                 </p>
                 <p className={styles.story_img_thema}>
                   실리콘작업

@@ -12,6 +12,7 @@ import { AiFillFacebook,AiOutlineTwitter,AiFillYoutube,AiOutlineInstagram,AiOutl
 export default function Footer() {
   return (
     <footer>
+      <h1 className='hidden'>최하단영역</h1>
       <div id={styles.footer_wrap}>
 
       

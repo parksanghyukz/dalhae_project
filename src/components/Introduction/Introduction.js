@@ -17,6 +17,7 @@ export default function Introduction() {
     <>
       <div id={styles.introduction_wrap}>
         <section id={styles.introduction_section}>
+        <h2 className='hidden'>업체소개영역</h2>
           <div id={styles.introduction_text_wrap}>
             <p id={styles.introduction_title}>
               인천 경기 전 지역!<br/>
@@ -37,7 +38,7 @@ export default function Introduction() {
             <button id={styles.introduction_btn} onClick={goAboutUs}>업체소개</button>
           </div>
           <div id={styles.introduction_img}>
-            <img src='../../images/introduction.png'/>
+            <img src='../../images/introduction.png' alt='업체소개이미지'/>
           </div>
           <div id={styles.introduction_list_wrap}>
             <ul id={styles.introduction_list}>

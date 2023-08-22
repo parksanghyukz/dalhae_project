@@ -15,8 +15,11 @@ export default function Visual() {
   return (
 
     <>
+    
     <div id={styles.visual_wrap}>
+      
       <section id={styles.main_visual}>
+      <h2 className='hidden'>비주얼영역</h2>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -47,6 +50,7 @@ export default function Visual() {
                 </div>
             </SwiperSlide> */}
             <SwiperSlide>
+                <h3 className='hidden'>비주얼1</h3>
                 <div id={styles.main_visual_img2}> 
                   <div className={styles.main_visual_text_wrap}>
                     <p className={styles.main_visual_title}>실측부터 시공까지 대표가 직접!</p>
@@ -55,6 +59,7 @@ export default function Visual() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
+                <h3 className='hidden'>비주얼2</h3>
                 <div id={styles.main_visual_img3}> 
                   <div className={styles.main_visual_text_wrap}>
                     <p className={styles.main_visual_title}>실측부터 시공까지 대표가 직접!</p>
@@ -63,6 +68,7 @@ export default function Visual() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
+              <h3 className='hidden'>비주얼3</h3>
               <div id={styles.main_visual_img4}> 
                 <div className={styles.main_visual_text_wrap}>
                   <p className={styles.main_visual_title}>실측부터 시공까지 대표가 직접!</p>

@@ -5,6 +5,7 @@ export default function Pride() {
   return (
     <div id={styles.pride_wrap}>
       <section id={styles.pride_section}>
+        <h2 className='hidden'>pride영역</h2>
         <ul id={styles.pride_list}>
           <li>
             <p className={styles.pride_img}>

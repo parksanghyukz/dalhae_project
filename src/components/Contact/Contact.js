@@ -6,6 +6,7 @@ export default function Contact() {
   return (
     <div id={styles.contact_wrap}>
       <section id={styles.contact_section}>
+        <h2 className='hidden'>contact영역</h2>
         <div id={styles.contact_text_box}>
           <p id={styles.contact_zoom}></p>
           <p id={styles.contact_title}>간편문의하기</p>
