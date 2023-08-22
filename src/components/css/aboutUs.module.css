@@ -57,7 +57,44 @@ p.aboutUs_contents_title{
 }
 
 div#aboutUs_contents_text_box{
-  width: 100%;
+  /* width: 100%; */
+  width: 1035px;
   height: 175px;
+  background-color: blue;
+}
+
+ul#aboutUs_contents_text_list{
+  width: 100%;
+  height: 100%;
+}
+
+ul#aboutUs_contents_text_list>li{
+  width: 265px;
+  height: 100%;
+  float: left;
+  margin-right: 120px;
+}
+
+ul#aboutUs_contents_text_list>li:nth-child(3){
+  margin-right: 0px;
+}
+
+p.aboutUs_contents_text_Num{
+  font: bold 32px 'Inter';
+}
+
+p.aboutUs_contents_text_title{
+  font: bold 30px 'Inter';
+  margin: 20px 0px;
+}
+
+p.aboutUs_contents_text_text{
+  font: bold 16px 'Inter';
+  color: #5F5F5F;
+}
+
+div#aboutUs_contents_box{
+  width: 100%;
+  height: 3000px;
   background-color: gray;
 }
