@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styles from '../components/css/aboutUs.module.css'
-import { Map, MapMarker,CustomOverlayMap, MapInfoWindow, Roadview } from 'react-kakao-maps-sdk'
+import { Map, MapMarker} from 'react-kakao-maps-sdk'
 import { useLocation } from 'react-router-dom'
 export default function AboutUs() {
 
@@ -9,6 +9,13 @@ export default function AboutUs() {
   // useEffect(()=>{
   //   window.scrollTo(0.0)
   // }, [pathname])
+
+    // # 경로가 변경될때마다 스크롤을 위로 올려주는 것이다.
+    const {pathname} = useLocation()
+
+    useEffect(()=>{
+      window.scrollTo(0,0)
+    }, [pathname])
 
 
   return (
