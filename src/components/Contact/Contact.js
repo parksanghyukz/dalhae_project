@@ -3,6 +3,11 @@ import styles from './contact.module.css'
 import { PiArrowElbowRightDownBold } from 'react-icons/pi';
 
 export default function Contact() {
+
+  const submit=()=>{
+    alert('문의내용 접수되었습니다!')
+  }
+
   return (
     <div id={styles.contact_wrap}>
       <section id={styles.contact_section}>
@@ -24,7 +29,7 @@ export default function Contact() {
             <input type='number' id={styles.contact_phone} placeholder='연락처' />
             {/* <input id={styles.contact_contents} placeholder='문의내용'/> */}
             <textarea id={styles.contact_contents} placeholder='문의내용'/>
-            <button id={styles.submit_btn}>submit now</button>
+            <button id={styles.submit_btn} onClick={submit}>submit now</button>
           </form>
           {/* <table>
             <tbody>
