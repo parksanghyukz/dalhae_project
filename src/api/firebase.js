@@ -14,14 +14,22 @@ import { getDatabase, ref, set, get, remove, query, orderByKey, equalTo } from '
 const firebaseConfig = {
   
   /********** 개인 인증키 입력 **********/
-  apiKey: "AIzaSyBG38xd3_xDfZ4sgiw1DiOJcMh54oUaCoQ",
-  authDomain: "dalhaeproject.firebaseapp.com",
-  databaseURL: "https://dalhaeproject-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "dalhaeproject",
-  storageBucket: "dalhaeproject.appspot.com",
-  messagingSenderId: "1034892568430",
-  appId: "1:1034892568430:web:d7b242d69a9b10458c037f",
-  measurementId: "G-9M4FEY4X57"
+  // apiKey: "AIzaSyBG38xd3_xDfZ4sgiw1DiOJcMh54oUaCoQ",
+  // authDomain: "dalhaeproject.firebaseapp.com",
+  // databaseURL: "https://dalhaeproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+  // projectId: "dalhaeproject",
+  // storageBucket: "dalhaeproject.appspot.com",
+  // messagingSenderId: "1034892568430",
+  // appId: "1:1034892568430:web:d7b242d69a9b10458c037f",
+  // measurementId: "G-9M4FEY4X57"
+  apiKey: "AIzaSyBISHS0_GUR9QNR7l_3fHEy4B6Cb3xgvak",
+  authDomain: "dalhae-1a207.firebaseapp.com",
+  databaseURL: "https://dalhae-1a207-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "dalhae-1a207",
+  storageBucket: "dalhae-1a207.appspot.com",
+  messagingSenderId: "685336364670",
+  appId: "1:685336364670:web:aa36cf09d64febf0613a2f",
+  measurementId: "G-8CT8JGEK38"
   
 
 };
