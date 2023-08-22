@@ -141,14 +141,22 @@ export default function AboutUs() {
                 오시는 길
               </p>
             </div>
-            <Map
+            {/* <Map
               center={{ lat: 33.5563, lng: 126.79581 }}
               style={{ width: "1400px", height: "800px", margin: "0 auto" }}
             >
               <MapMarker position={{ lat: 37.52363651912897, lng: 126.7399534734493 }}>
                 <div style={{color:"#000"}}>Hello World!</div>
               </MapMarker>
-            </Map>
+            </Map> */}
+              <Map
+                center={{ lat: 33.5563, lng: 126.79581 }}
+                style={{ width: "100%", height: "360px" }}
+              >
+                <MapMarker position={{ lat: 33.55635, lng: 126.795841 }}>
+                  <div style={{color:"#000"}}>Hello World!</div>
+                </MapMarker>
+              </Map>
             
           </div>
         </section>
