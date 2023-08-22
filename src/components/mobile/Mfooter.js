@@ -15,7 +15,7 @@ export default function Mfooter() {
           <nav id={styles.mobile_footer_menu}>
             {/* <h2 className='hidden'>모바일푸터메뉴</h2> */}
             <ul id={styles.mobile_footer_menu_list}>
-              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/Mnotfound'>Home</Link></li>
               <li><Link to='/MAboutUs'>업체소개</Link></li>
               <li><Link to='/MaboutItem'>제품소개</Link></li>
               <li><Link to='/Mconstruction'>시공소개</Link></li>
