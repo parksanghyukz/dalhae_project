@@ -22,14 +22,17 @@ const firebaseConfig = {
   // messagingSenderId: "1034892568430",
   // appId: "1:1034892568430:web:d7b242d69a9b10458c037f",
   // measurementId: "G-9M4FEY4X57"
-  apiKey: "AIzaSyBISHS0_GUR9QNR7l_3fHEy4B6Cb3xgvak",
-  authDomain: "dalhae-1a207.firebaseapp.com",
-  databaseURL: "https://dalhae-1a207-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "dalhae-1a207",
-  storageBucket: "dalhae-1a207.appspot.com",
-  messagingSenderId: "685336364670",
-  appId: "1:685336364670:web:aa36cf09d64febf0613a2f",
-  measurementId: "G-8CT8JGEK38"
+  apiKey: "AIzaSyD1dKXf9Et1XT7eAiFpQuwQOAbRuYTgqak",
+  authDomain: "dalhaeproject-8c107.firebaseapp.com",
+  projectId: "dalhaeproject-8c107",
+  storageBucket: "dalhaeproject-8c107.appspot.com",
+  messagingSenderId: "381175501003",
+  appId: "1:381175501003:web:80181e97e8dcd501f70b4e"
+
+
+
+
+  
   
 
 };
