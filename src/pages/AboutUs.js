@@ -48,30 +48,99 @@ export default function AboutUs() {
           <div id={styles.aboutUs_contents_box}>
             <ul id={styles.aboutUs_contents_box_list}>
               <li>
-                <p className={styles.aboutUs_contents_box_title}>
-                  창호시공에 대한 <br/>
-                  서비스제공
-                </p>
-                <p className={styles.aboutUs_contents_box_subtitle}>
-                  창호 시공 전문 기업으로서 정확한 실측과 <br/>
-                  시공을 통해 좋은 서비스를 제공합니다. 
-                </p>
-                <p className={styles.aboutUs_contents_box_hashtag}>
-                  #달해기업 #DalHae
-                </p>
-                <p className={styles.aboutUs_contents_box_text}>
-                달해기업은 아파트 주택 학교 상가 오피스텔 원룸 병원등에
-                크고 작은 수백개의 샷시를 시공해온 샷시전문 업체입니다.
-                또한 경기, 인천, 서울권의 오래된 아파트,  빌라, 주택의 
-                발코니 샷시 및 거실창 방창의 교체작업을 전문적으로 하고 있습니다.
-                오래된 주택의 현관문을 방화문으로 교체하는 작업도 하고 있습니다. 
-                좋은 서비스로 고객 여러분께 다가갈 것을 약속드립니다.
-                </p>
+                <div className={styles.aboutUs_contents_box_text}>
+                  <p className={styles.aboutUs_contents_box_title}>
+                    창호시공에 대한 <br/>
+                    서비스제공
+                  </p>
+                  <p className={styles.aboutUs_contents_box_subtitle}>
+                    창호 시공 전문 기업으로서 정확한 실측과 <br/>
+                    시공을 통해 좋은 서비스를 제공합니다. 
+                  </p>
+                  <p className={styles.aboutUs_contents_box_hashtag}>
+                    #달해기업 #DalHae
+                  </p>
+                  <p className={styles.aboutUs_contents_box_text}>
+                  달해기업은 아파트 주택 학교 상가 오피스텔 원룸 병원등에
+                  크고 작은 수백개의 샷시를 시공해온 샷시전문 업체입니다.
+                  또한 경기, 인천, 서울권의 오래된 아파트,  빌라, 주택의 
+                  발코니 샷시 및 거실창 방창의 교체작업을 전문적으로 하고 있습니다.
+                  오래된 주택의 현관문을 방화문으로 교체하는 작업도 하고 있습니다. 
+                  좋은 서비스로 고객 여러분께 다가갈 것을 약속드립니다.
+                  </p>
+                </div>
                 <p className={styles.aboutUs_contents_box_img}>
-                  <img src='../' alt='이미지1'/>
+                  <img src='../../../images/AboutUs01.png' alt='이미지1'/>
+                </p>
+              </li>
+              <li>
+                <p id={styles.aboutUs_contents_box_img}>
+                  <img src='../../../images/AboutUs02.png' alt='이미지2'/>
+                </p>
+                <div id={styles.aboutUs_contents_box_text}>
+                  <p className={styles.aboutUs_contents_box_title}>
+                    창호시공에 대한 <br/>
+                    서비스제공
+                  </p>
+                  <p className={styles.aboutUs_contents_box_subtitle}>
+                    창호 시공 전문 기업으로서 정확한 실측과 <br/>
+                    시공을 통해 좋은 서비스를 제공합니다. 
+                  </p>
+                  <p className={styles.aboutUs_contents_box_hashtag}>
+                    #달해기업 #DalHae
+                  </p>
+                  <p className={styles.aboutUs_contents_box_text}>
+                  달해기업은 아파트 주택 학교 상가 오피스텔 원룸 병원등에
+                  크고 작은 수백개의 샷시를 시공해온 샷시전문 업체입니다.
+                  또한 경기, 인천, 서울권의 오래된 아파트,  빌라, 주택의 
+                  발코니 샷시 및 거실창 방창의 교체작업을 전문적으로 하고 있습니다.
+                  오래된 주택의 현관문을 방화문으로 교체하는 작업도 하고 있습니다. 
+                  좋은 서비스로 고객 여러분께 다가갈 것을 약속드립니다.
+                  </p>
+                </div>
+
+
+              </li>
+              <li>
+                <div className={styles.aboutUs_contents_box_text}>
+                  <p className={styles.aboutUs_contents_box_title}>
+                    창호시공에 대한 <br/>
+                    서비스제공
+                  </p>
+                  <p className={styles.aboutUs_contents_box_subtitle}>
+                    창호 시공 전문 기업으로서 정확한 실측과 <br/>
+                    시공을 통해 좋은 서비스를 제공합니다. 
+                  </p>
+                  <p className={styles.aboutUs_contents_box_hashtag}>
+                    #달해기업 #DalHae
+                  </p>
+                  <p className={styles.aboutUs_contents_box_text}>
+                  달해기업은 아파트 주택 학교 상가 오피스텔 원룸 병원등에
+                  크고 작은 수백개의 샷시를 시공해온 샷시전문 업체입니다.
+                  또한 경기, 인천, 서울권의 오래된 아파트,  빌라, 주택의 
+                  발코니 샷시 및 거실창 방창의 교체작업을 전문적으로 하고 있습니다.
+                  오래된 주택의 현관문을 방화문으로 교체하는 작업도 하고 있습니다. 
+                  좋은 서비스로 고객 여러분께 다가갈 것을 약속드립니다.
+                  </p>
+                </div>
+                <p className={styles.aboutUs_contents_box_img}>
+                  <img src='../../../images/AboutUs03.png' alt='이미지1'/>
                 </p>
               </li>
             </ul>
+          </div>
+          <div id={styles.aboutUs_map}>
+            <div id={styles.aboutUs_title_wrap}>
+              <p id={styles.aboutUs_top_title}>
+                <span id={styles.span_first}></span>
+                <span id={styles.span_second}></span>
+                <span id={styles.span_third}></span>
+              </p>
+              <p id={styles.aboutUs_title}>
+                오시는 길
+              </p>
+            </div>
+            
           </div>
         </section>
 

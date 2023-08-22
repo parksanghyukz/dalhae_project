@@ -33,7 +33,7 @@ p#aboutUs_visual_text{
 }
 div#aboutUs_contents_wrap{
   width: 100%;
-  height: 4000px;
+  min-height: 3000px;
   background-color: red;
   padding: 200px 160px;
   box-sizing: border-box;
@@ -48,7 +48,7 @@ section#aboutUs_contents_section{
 div#aboutUs_contents_title_box{
   width: 100%;
   height: 90px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 p.aboutUs_contents_title{
@@ -61,6 +61,7 @@ div#aboutUs_contents_text_box{
   width: 1035px;
   height: 175px;
   background-color: blue;
+  margin-bottom: 150px;
 }
 
 ul#aboutUs_contents_text_list{
@@ -95,6 +96,144 @@ p.aboutUs_contents_text_text{
 
 div#aboutUs_contents_box{
   width: 100%;
-  height: 3000px;
+  /* height: 2000px; */
+  height: auto;
   background-color: gray;
+  margin-bottom: 150px;
 }
+
+ul#aboutUs_contents_box_list{
+  width: 100%;
+  height: 100%;
+}
+
+ul#aboutUs_contents_box_list>li{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.aboutUs_contents_box_text{
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+p.aboutUs_contents_box_title{
+  width: auto;
+  height: auto;
+  font: bold 32px 'Inter';
+  margin-bottom: 80px;
+}
+
+p.aboutUs_contents_box_subtitle{
+  width: 500px;
+  height: auto;
+  font: normal 24px 'Inter';
+  margin-bottom: 80px;
+}
+
+p.aboutUs_contents_box_hashtag{
+  font: bold 20px 'Inter';
+  color: #0B4DC5;
+  margin-bottom: 80px;
+}
+
+p.aboutUs_contents_box_text{
+  width: 800px;
+  height: auto;
+  text-align: justify;
+  font: normal 16px 'Inter';
+  color: #5F5F5F;
+}
+
+p.aboutUs_contents_box_img{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+p.aboutUs_contents_box_img>img{
+  width: 100%;
+  height: auto;
+}
+
+p#aboutUs_contents_box_img{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+p#aboutUs_contents_box_img>img{
+  width: 100%;
+  height: auto;
+}
+
+div#aboutUs_contents_box_text{
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+div#aboutUs_map{
+  width: 100%;
+  height: 1000px;
+  background-color: blue;
+
+}
+
+div#aboutUs_title_wrap{
+  width: 100%;
+  height: 130px;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+
+p#aboutUs_top_title{
+  width: 56px;
+  height: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+p#aboutUs_top_title>span{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  
+}
+
+span#span_first{
+  background-color: black;
+}
+span#span_second{
+  background-color: #0B4DC5;
+}
+span#span_third{
+  background-color: #39A1AB;
+}
+
+p#aboutUs_title{
+  width: 100%;
+  height: auto;
+  font: bold 2em/60px 'Inter';
+  text-align: center;
+  color: #0B4DC5;
+}
+
