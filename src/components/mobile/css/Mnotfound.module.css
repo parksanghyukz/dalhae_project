@@ -3,7 +3,7 @@ div#notFound_wrap{
   /* width: 500px; */
   height: 300px;
   margin: 300px auto;
-  background-color: white;
+  background-color: red;
   /* position: relative;
   top: 0;
   left: 0; */
@@ -28,6 +28,7 @@ h1#notFound_title{
   height: 60px;
   font: bold 24px/60px 'Noto Sans KR';
   text-align: center;
+  background-color: blue;
 }
 
 p#notFound_text{
@@ -36,6 +37,7 @@ p#notFound_text{
   font: normal 16px/50px 'Noto Sans KR';
   text-align: center;
   color: #5F5F5F;
+  background-color: green;
 }
 
 p#notFound_backLink{
@@ -45,4 +47,5 @@ p#notFound_backLink{
   text-align: center;
   text-decoration: underline;
   cursor: pointer;
+  background-color: gray;
 }

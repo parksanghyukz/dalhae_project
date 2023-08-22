@@ -19,7 +19,7 @@ export default function Mfooter() {
               <li><Link to='/MAboutUs'>업체소개</Link></li>
               <li><Link to='/MaboutItem'>제품소개</Link></li>
               <li><Link to='/Mconstruction'>시공소개</Link></li>
-              <li><Link to='/CustomerCenter'>고객센터</Link></li>
+              <li><Link to='/MCustomerCenter'>고객센터</Link></li>
             </ul>
           </nav>
         </p>
