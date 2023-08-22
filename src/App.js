@@ -19,6 +19,8 @@ import { AuthContextProvider } from "./context/AuthContext";
 import Monline from "./pages/mobile/Monline";
 import MCustomerCenter from "./pages/mobile/MCustomerCenter";
 import { isMobile } from "react-device-detect";
+import MnotFound from "./pages/mobile/Mnotfound";
+// import Mnotfound from './pages/mobile/Mnotfound';
 
 
 export default function App() {
@@ -32,7 +34,7 @@ export default function App() {
       {
         path:'/',
         element:<Mroot/>,
-        errorElement:<NotFound/>,
+        errorElement:<MnotFound/>,
         children:[
           {index:true, element:<Mmain/>},
           {path:'/MAboutUs',element:<MAboutUs/>},
