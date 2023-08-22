@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './introduction.module.css'
 import { AiOutlinePlusCircle } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export default function Introduction() {
+
+  const navigate = useNavigate();
+
+  const goAboutUs=()=>{
+    navigate({ pathname: '/AboutUs'})
+  }
+
+
   return (
     <>
       <div id={styles.introduction_wrap}>
@@ -26,7 +34,7 @@ export default function Introduction() {
               저희 달해기업 완성창으로 최선을 다해 시공해 드리겠습니다.
               감사합니다.
             </p>
-            <button id={styles.introduction_btn}><Link to='/AboutUS'>업체소개</Link></button>
+            <button id={styles.introduction_btn} onClick={goAboutUs}>업체소개</button>
           </div>
           <div id={styles.introduction_img}>
             <img src='../../images/introduction.png'/>

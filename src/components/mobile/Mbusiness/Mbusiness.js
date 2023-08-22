@@ -2,7 +2,11 @@ import React from 'react'
 import styles from './Mbusiness.module.css'
 
 
+
 export default function Mbusiness() {
+
+
+
   return (
     <>
       <div id={styles.mobile_business_wrap}>

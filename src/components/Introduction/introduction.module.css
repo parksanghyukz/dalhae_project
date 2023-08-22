@@ -73,11 +73,10 @@ button#introduction_btn{
   height: 50px;
   background-color: #39A1AB;
   border-radius: 20px;
-}
-button#introduction_btn>a{
   font: normal 16px/50px 'Noto Sans KR';
   color: white;
 }
+
 
 
 div#introduction_list_wrap{
