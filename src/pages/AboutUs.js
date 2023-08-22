@@ -143,10 +143,10 @@ export default function AboutUs() {
             </div>
             <Map
               center={{ lat: 33.5563, lng: 126.79581 }}
-              style={{ width: "100%", height: "360px" }}
+              id={styles.aboutUs_map_wrap}
             >
               <MapMarker position={{ lat: 33.55635, lng: 126.795841 }}>
-                <div style={{color:"#000"}}>Hello World!</div>
+                <div style={{color:"#000"}}>회사 위치</div>
               </MapMarker>
             </Map>
             
