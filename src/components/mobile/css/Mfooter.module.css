@@ -41,6 +41,11 @@ ul#mobile_footer_menu_list{
   align-content: center;
 }
 
+ul#mobile_footer_menu_list>li{
+  font: normal 10px/20px 'Noto Sans KR';
+  color: white;
+}
+
 ul#mobile_footer_menu_list>li>a{
   font: normal 10px/20px 'Noto Sans KR';
   color: white;
@@ -62,6 +67,8 @@ ul#moblie_footer_sns_list{
   justify-content: space-between;
   align-content: center;
 }
+
+
 
 ul#moblie_footer_sns_list>li>a{
   font-size: 14px;
