@@ -161,6 +161,8 @@ export default function Mheader() {
                                 navigate({ pathname: `${subItem.path}`})
                               }
                               setClickIndex(item.index)
+                              closeMenu()
+                              
                             }}>
                               {subItem.name}
                             </li>
