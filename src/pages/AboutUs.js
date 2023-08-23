@@ -4,11 +4,6 @@ import { Map, MapMarker} from 'react-kakao-maps-sdk'
 import { useLocation } from 'react-router-dom'
 export default function AboutUs() {
 
-  // const {pathname} = useLocation()
-
-  // useEffect(()=>{
-  //   window.scrollTo(0.0)
-  // }, [pathname])
 
     // # 경로가 변경될때마다 스크롤을 위로 올려주는 것이다.
     const {pathname} = useLocation()
@@ -154,6 +149,7 @@ export default function AboutUs() {
               </p>
             </div>
             <div id={styles.aboutUs_map_box}>
+              {/* # 카카오 지도 구현 */}
                 <Map 
                   center={{ lat: 37.52363651912897, lng: 126.7399534734493 }} 
                   style={{ width: '100%', height: '100%'}}
