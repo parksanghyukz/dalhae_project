@@ -139,7 +139,7 @@ export default function Mheader() {
                     {item.subMenuList.length<1 ? 
                   
                     <>
-                    <Link to='/'>{item.name}</Link>
+                    <Link to='/' onClick={closeMenu}>{item.name}</Link>
                     </>
 
                     :
