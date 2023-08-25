@@ -137,11 +137,9 @@ export default function AboutItemDetail() {
 
                 {
                     productItem.subImage?.map((item)=>(
-                      <>
                       <li className={styles.selected}>
                          <img src={item.image} alt='제품이미지'/>
                       </li>
-                      </>
                     ))
                 }
 
