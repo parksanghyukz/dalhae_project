@@ -62,17 +62,6 @@ export default function AboutItemDetail() {
   //  // console.log(productItem)
   // }, [allProducts])
 
-
-  // firebase 로직 사용해서 결과값출력하기
-  // useEffect(()=>{
-  //   getProductDetail(productId).then((res)=>{
-  //     setProductItem(res)
-  //   })
-  // })
-
-
-
-
   // useNavigate() import해주기 
   const navigate= useNavigate();
 
@@ -90,7 +79,7 @@ export default function AboutItemDetail() {
   //   console.log(value)
   // }, [search])
 
-
+  
   // // useEffect를 사용해서 AboutItem에서 받은 item.category값 확인해보기
   // useEffect(() => {
 
@@ -152,10 +141,6 @@ export default function AboutItemDetail() {
                       </li>
                     ))
                 }
-
-
-
-
 
                 {/* <li className={styles.selected}>
                   <img src={item.image} alt='제품이미지'/>
