@@ -42,7 +42,7 @@ div#mobile_info_section_img_wrap{
 div#mobile_info_section_img_box{
   width: 100%;
   height: 300px;
-  background-color: red;
+  background-color: #ececec;
 }
 
 p#mobile_aboutItemDetail_info_img{
