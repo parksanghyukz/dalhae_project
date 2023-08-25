@@ -4,6 +4,11 @@
       "id":"001",
       "category":"창호",
       "image":"/images/Window_00.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_00.png"},
+        {"index":1, "image":"/images/Door_00.png"},
+        {"index":2, "image":"/images/Door_00.png"}
+      ],
       "title":"확장형 이중창",
       "text":"BF-255RB(확장용이중창)",
       "usage":"거실 확장, 확장방, 고급빌라 등 외부용 이중창",

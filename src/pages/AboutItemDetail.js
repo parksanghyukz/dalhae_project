@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import styles from '../components/css/aboutItemDetail.module.css'
 import { useNavigate, useParams, useLocation, } from 'react-router-dom'
 import { useEffect, useState } from 'react'
@@ -7,6 +7,9 @@ import useCategory from '../Hooks/useCategory'
 import { getProductDetail, getProducts } from '../api/firebase'
 import useProducts from '../Hooks/useProducts'
 // Import Swiper React components
+
+
+
 
 
 
@@ -98,8 +101,12 @@ export default function AboutItemDetail() {
   // }, [pathname])
 
 
+  const infoImg = useRef();
 
 
+  const changeImg=()=>{
+    console.log(infoImg)
+  }
 
 
 
@@ -123,15 +130,37 @@ export default function AboutItemDetail() {
             <div id={styles.info_section_img_wrap}>
               <div id={styles.info_section_img_box}>
                 <p id={styles.aboutItemDetail_info_img}>
-                  <img src={item.image} alt='제품이미지'/>
+                  <img src={item.image} alt='제품이미지'  ref={infoImg}/>  
                 </p>
               </div>
-              {/* <ul id={styles.info_section_img_list}>
-                <li>상세이미지</li>
-                <li>상세이미지</li>
-                <li>상세이미지</li>
-                <li>상세이미지</li>
-              </ul> */}
+              <ul id={styles.info_section_img_list}>
+
+                {
+
+                    productItem.subImage?.map((item)=>(
+                      <li className={styles.selected}>
+                         <img src={item.image} alt='제품이미지'/>
+                      </li>
+                    ))
+                }
+
+
+
+
+
+                {/* <li className={styles.selected}>
+                  <img src={item.image} alt='제품이미지'/>
+                </li>
+                <li onClick={changeImg}>
+                  <img src='../../../images/Window_detail_00.png' alt='제품이미지'/>
+                </li>
+                <li>
+                  <img src='../../../images/Window_detail_01.png' alt='제품이미지'/>
+                </li>
+                <li>
+                  <img src='../../../images/Window_detail_02.png' alt='제품이미지'/>
+                </li> */}
+              </ul>
             </div>
             <div id={styles.info_section_font_wrap}>
               <div id={styles.info_section_title_wrap}>
