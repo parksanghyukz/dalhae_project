@@ -5,10 +5,10 @@
       "category":"창호",
       "image":"/images/Window_00.png",
       "subImage":[
-        {"index":0, "image":"/images/Window_00.png"},
-        {"index":1, "image":"/images/Window_detail_00.png"},
-        {"index":2, "image":"/images/Window_detail_01.png"},
-        {"index":3, "image":"/images/Window_detail_02.png"}
+        {"index":0, "test":"/images/Window_00.png"},
+        {"index":1, "test":"/images/Window_detail_00.png"},
+        {"index":2, "test":"/images/Window_detail_01.png"},
+        {"index":3, "test":"/images/Window_detail_02.png"}
       ],
       "title":"확장형 이중창",
       "text":"BF-255RB(확장용이중창)",

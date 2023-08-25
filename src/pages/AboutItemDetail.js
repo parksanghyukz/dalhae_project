@@ -39,22 +39,28 @@ export default function AboutItemDetail() {
 
   
   // 이건 db에 올려둔 json파일 가져오기!
-  const [allProducts, setAllProducts] = useState([])
+  //const [allProducts, setAllProducts] = useState([])
+
+  const [productItem, setProductItem] = useState({})
 
   useEffect(()=>{
-    getProducts().then((res)=>{
-      setAllProducts(res)
+    getProductDetail(productId).then((res)=>{
+      setProductItem(res)
     })
-  })
+  },[])
 
 
 
-  const [productItem, setProductItem] = useState([])
+  
 
-  useEffect(()=>{
-    const productItem = allProducts.filter((item)=>(item.id===productId))
-    setProductItem(productItem)
-  }, [allProducts])
+  // useEffect(()=>{
+  //   const productItem = allProducts.find((item)=>(item.id===productId))
+  //   if(productItem){
+  //     setProductItem(productItem)
+  //   }
+
+  //  // console.log(productItem)
+  // }, [allProducts])
 
 
   // firebase 로직 사용해서 결과값출력하기
@@ -105,7 +111,8 @@ export default function AboutItemDetail() {
 
 
   const changeImg=()=>{
-    alert('선택된이미지')
+    //alert('선택된이미지')
+    
   }
 
 
@@ -115,7 +122,7 @@ export default function AboutItemDetail() {
     <>
 
       {
-        productItem.map((item)=>(
+        
       <>
         <div id={styles.aboutItem_visual_wrap}>
           <section id={styles.aboutItem_section}>
@@ -130,13 +137,17 @@ export default function AboutItemDetail() {
             <div id={styles.info_section_img_wrap}>
               <div id={styles.info_section_img_box}>
                 <p id={styles.aboutItemDetail_info_img}>
-                  <img src={item.image} alt='제품이미지'  ref={infoImg}/>  
+                  <img src={productItem.image} alt='제품이미지'  ref={infoImg}/>  
                 </p>
               </div>
               <ul id={styles.info_section_img_list}>
                 {    
-                    item.subImage?.map((item)=>(
-                      <li onClick={changeImg}>
+                    productItem.subImage?.map((item)=>(
+                      <li onClick={()=>{
+                        setProductItem({...productItem, image:item.image})
+                        //console.log(productItem.image)
+                        //console.log(item.image)
+                      }}>
                          <img src={item.image} alt='제품이미지'/>
                       </li>
                     ))
@@ -162,20 +173,20 @@ export default function AboutItemDetail() {
             </div>
             <div id={styles.info_section_font_wrap}>
               <div id={styles.info_section_title_wrap}>
-                <p id={styles.aboutItemDetail_info_title}>{item.title}</p>
-                <p id={styles.aboutItemDetail_info_name}>{item.text}</p>
+                <p id={styles.aboutItemDetail_info_title}>{productItem.title}</p>
+                <p id={styles.aboutItemDetail_info_name}>{productItem.text}</p>
               </div>
               <div className={styles.info_section_text_wrap}>
                 <p className={styles.aboutItemDetail_info_text}>용도</p>
-                <p className={styles.aboutItemDetail_info_sub_text}>{item.usage}</p>
+                <p className={styles.aboutItemDetail_info_sub_text}>{productItem.usage}</p>
               </div>
               <div className={styles.info_section_text_wrap}>
                 <p className={styles.aboutItemDetail_info_text}>유리사양</p>
-                <p className={styles.aboutItemDetail_info_sub_text}>{item.spec}</p>
+                <p className={styles.aboutItemDetail_info_sub_text}>{productItem.spec}</p>
               </div>
               <div className={styles.info_section_text_wrap}>
                 <p className={styles.aboutItemDetail_info_text}>색상</p>
-                <p className={styles.aboutItemDetail_info_sub_text}>{item.color}</p>
+                <p className={styles.aboutItemDetail_info_sub_text}>{productItem.color}</p>
               </div>
               <div className={styles.info_section_text_wrap}>
                 <p className={styles.aboutItemDetail_info_text}>상세설명</p>
@@ -188,12 +199,12 @@ export default function AboutItemDetail() {
         <section id={styles.aboutItemDetail_contents_top_section}>
           <p id={styles.aboutItemDetail_contents_logo}></p>
           <p className={styles.aboutItemDetail_contents_normal_title}>window</p>
-          <p className={styles.aboutItemDetail_contents_bold_title}>달해기업 {item.title}</p>
-          <p className={styles.aboutItemDetail_contents_normal_title}>{item.text}</p>
+          <p className={styles.aboutItemDetail_contents_bold_title}>달해기업 {productItem.title}</p>
+          <p className={styles.aboutItemDetail_contents_normal_title}>{productItem.text}</p>
         </section>
         <section id={styles.aboutItemDetail_contents_bottom_section}>
           <p id={styles.aboutItemDetail_contents_img}>
-            <img src={item.image} alt='제품이미지'/>
+            <img src={productItem.image} alt='제품이미지'/>
           </p>
           <div id={styles.aboutItemDetail_contents_list_box}>
             <ul id={styles.aboutItemDetail_contents_list}>
@@ -293,19 +304,19 @@ export default function AboutItemDetail() {
             <caption id={styles.aboutItemDetail_spec_caption}>제품사양</caption>
               <tr className={styles.aboutItemDetail_spec}>
                 <th className={styles.aboutItemDetail_spec_title}>제품명</th>
-                <td className={styles.aboutItemDetail_spec_text}>{item.text}</td>
+                <td className={styles.aboutItemDetail_spec_text}>{productItem.text}</td>
               </tr>
               <tr className={styles.aboutItemDetail_spec}>
                 <th className={styles.aboutItemDetail_spec_title}>용도</th>
-                <td className={styles.aboutItemDetail_spec_text}>{item.usage}</td>
+                <td className={styles.aboutItemDetail_spec_text}>{productItem.usage}</td>
               </tr>
               <tr className={styles.aboutItemDetail_spec}>
                 <th className={styles.aboutItemDetail_spec_title}>유리사양</th>
-                <td className={styles.aboutItemDetail_spec_text}>{item.spec}</td>
+                <td className={styles.aboutItemDetail_spec_text}>{productItem.spec}</td>
               </tr>
               <tr className={styles.aboutItemDetail_spec}>
-                <th className={styles.aboutItemDetail_spec_title}>{item.category}두께</th>
-                <td className={styles.aboutItemDetail_spec_text}>{item.weight}</td>
+                <th className={styles.aboutItemDetail_spec_title}>{productItem.category}두께</th>
+                <td className={styles.aboutItemDetail_spec_text}>{productItem.weight}</td>
               </tr>
         </table>
       </div>
@@ -315,7 +326,7 @@ export default function AboutItemDetail() {
 
 
       </>
-        ))
+        
       }
       {/* <div id={styles.aboutItem_visual_wrap}>
         <section id={styles.aboutItem_section}>
