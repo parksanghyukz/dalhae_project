@@ -5,9 +5,9 @@
       "category":"창호",
       "image":"/images/Window_00.png",
       "subImage":[
-        {"index":0, "image":"/images/Door_00.png"},
-        {"index":1, "image":"/images/Door_00.png"},
-        {"index":2, "image":"/images/Door_00.png"}
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
       ],
       "title":"확장형 이중창",
       "text":"BF-255RB(확장용이중창)",
@@ -20,6 +20,11 @@
       "id":"002",
       "category":"창호",
       "image":"/images/Window_01.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"발코니 창",
       "text":"BF-140RB(발코니단창)",
       "usage":"고층 아파트, 빌라 등 외벽 단열을 위한 단창",
@@ -31,6 +36,11 @@
       "id":"003",
       "category":"창호",
       "image":"/images/Window_02.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"분합 창",
       "text":"BF-225WA(발코니공틀)",
       "usage":"거실과 발코니, 방과 발코니 등을 이어주는 창",
@@ -42,6 +52,11 @@
       "id":"004",
       "category":"창호",
       "image":"/images/Window_03.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"이중 창",
       "text":"BF-235R",
       "usage":"아파트, 빌라 등 내부 방에 사용하는 이중창",
@@ -53,6 +68,11 @@
       "id":"005",
       "category":"창호",
       "image":"/images/Window_04.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"단창",
       "text":"BF-125R",
       "usage":"아파트, 빌라 등 외벽 단열을 위한 발코니 단창",
@@ -64,6 +84,11 @@
       "id":"006",
       "category":"창호",
       "image":"/images/Window_05.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"스마트에디션 주거용 이중창",
       "text":"PI-232D",
       "usage":"실내 인테리어를연출해 주는 주거용 이중창",
@@ -75,6 +100,11 @@
       "id":"007",
       "category":"창호",
       "image":"/images/Window_06.png",
+      "subImage":[
+        {"index":0, "image":"/images/Window_detail_00.png"},
+        {"index":1, "image":"/images/Window_detail_01.png"},
+        {"index":2, "image":"/images/Window_detail_02.png"}
+      ],
       "title":"공틀형 거실 분합문",
       "text":"PN-225L",
       "usage":"공틀 마감을 통한 세련된 실내 인테리어 구현",
@@ -86,6 +116,7 @@
       "id":"020",
       "category":"유리",
       "image":"/images/Grass_00.png",
+      "subImage":[{"index":0, "image":"/images/Door_detail_03.png"}],
       "title":"투명유리",
       "text":"K45296099",
       "usage":"단독주택, 다세대주택, 연립주택, 아파트 내외부, 유리파티션, 온실유리, 샤워부스",
@@ -97,6 +128,7 @@
       "id":"021",
       "category":"유리",
       "image":"/images/Grass_01.png",
+      "subImage":[{"index":0, "image":"/images/Door_detail_03.png"}],
       "title":"컬러유리",
       "text":"K45296090",
       "usage":"테이블 등 각종 유리기구 및 다양한 장식성이 요구되는 공간",
@@ -108,6 +140,7 @@
       "id":"022",
       "category":"유리",
       "image":"/images/Grass_02.png",
+      "subImage":[{"index":0, "image":"/images/Door_detail_03.png"}],
       "title":"디자인유리",
       "text":"K45296080",
       "usage":"장식용 및 불투명 채광 효과가 필요한 곳, 사무실 및 주거용 칸막이",
@@ -119,6 +152,11 @@
       "id":"030",
       "category":"현관문",
       "image":"/images/Door_00.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"단열현관문",
       "text":"K45296095",
       "usage":"단독주택",
@@ -130,6 +168,11 @@
       "id":"031",
       "category":"현관문",
       "image":"/images/Door_01.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"아트도어",
       "text":"AF1553",
       "usage":"단독주택, 아파트",
@@ -141,6 +184,11 @@
       "id":"032",
       "category":"현관문",
       "image":"/images/Door_02.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"센서블도어",
       "text":"NH2201",
       "usage":"단독주택, 아파트",
@@ -152,6 +200,11 @@
       "id":"033",
       "category":"현관문",
       "image":"/images/Door_03.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"HP-모닝스타",
       "text":"MNST002",
       "usage":"단독주택, 아파트",
@@ -163,6 +216,11 @@
       "id":"034",
       "category":"현관문",
       "image":"/images/Door_04.png",
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"HP-골드그레이",
       "text":"GDGY003",
       "usage":"단독주택, 아파트",
@@ -173,7 +231,12 @@
     "035":{
       "id":"035",
       "category":"현관문",
-      "image":"/images/Door_05.png",
+      "image":"/images/Door_05.png",      
+      "subImage":[
+        {"index":0, "image":"/images/Door_detail_00.png"},
+        {"index":1, "image":"/images/Door_detail_01.png"},
+        {"index":2, "image":"/images/Door_detail_02.png"}
+      ],
       "title":"HP-시크릿",
       "text":"scr001",
       "usage":"단독주택, 아파트",
