@@ -105,7 +105,7 @@ export default function AboutItemDetail() {
 
 
   const changeImg=()=>{
-    console.log(infoImg)
+    alert('선택된이미지')
   }
 
 
@@ -134,10 +134,9 @@ export default function AboutItemDetail() {
                 </p>
               </div>
               <ul id={styles.info_section_img_list}>
-
-                {
-                    productItem.subImage?.map((item)=>(
-                      <li className={styles.selected}>
+                {    
+                    item.subImage?.map((item)=>(
+                      <li onClick={changeImg}>
                          <img src={item.image} alt='제품이미지'/>
                       </li>
                     ))
