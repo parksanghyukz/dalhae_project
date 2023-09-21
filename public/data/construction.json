@@ -1,0 +1,38 @@
+[
+  {
+    "step":"01",
+    "title":"보양",
+    "text":"시공 전에 철저한 보양작업 진행",
+    "image":"/images/construction/construction01.png"
+  },
+  {
+    "step":"02",
+    "title":"이물질 철거",
+    "text":"기존창과 잔여 실리콘 등 이물질을 완벽하게 철거",
+    "image":"/images/construction/construction02.png"
+  },
+  {
+    "step":"03",
+    "title":"프레임고정",
+    "text":"창의 수평을 잡고 고정",
+    "image":"/images/construction/construction03.png"
+  },
+  {
+    "step":"04",
+    "title":"우레탄작업",
+    "text":"고정한 창 사이 빈공간이 없도록 우레탄폼 작업",
+    "image":"/images/construction/construction04.png"
+  },
+  {
+    "step":"05",
+    "title":"실리콘작업",
+    "text":"실리콘으로 깔끔하게 마무리작업",
+    "image":"/images/construction/construction05.png"
+  },
+  {
+    "step":"06",
+    "title":"사춤 및 타일",
+    "text":"창이 주저앉거나 기울지 않게 시멘트로 보강",
+    "image":"/images/construction/construction06.png"
+  }
+]

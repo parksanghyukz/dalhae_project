@@ -1,5 +1,5 @@
 // 1. 커스텀훅을 이름지을때 앞에 use를 붙이면 좋다
-import React from 'react'
+import React, { useCallback } from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
@@ -19,7 +19,8 @@ export default function useProducts() {
   }, [])
   
   
-  
+
+ 
   return (
     // 3. Hook은 함수이기때문에 값만 리턴해주면 된다!
     // 기존 컴포넌트는 HTML을 리턴해주지만 훅은 결과값만 리턴해주기

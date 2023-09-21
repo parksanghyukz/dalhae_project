@@ -1,0 +1,31 @@
+div#customer_visual_wrap{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+section#customer_section{
+  width: 100%;
+  height: 100%;
+  background:url('/public/images/aboutItem_visual2.jpg')no-repeat center 
+}
+
+p#customer_visual_title{
+  text-align: center;
+  font: bold 2.63em/300px 'Noto Sans KR';
+  color: white;
+}
+
+p#customer_visual_text{
+  width: 300px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -150px;
+  font: normal 20px 'Noto Sans KR';
+  color: white;
+}

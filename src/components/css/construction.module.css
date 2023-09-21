@@ -1,0 +1,179 @@
+div#construction_visual_wrap{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+section#construction_section{
+  width: 100%;
+  height: 100%;
+  background:url('/public/images/aboutItem_visual2.jpg')no-repeat center 
+}
+
+p#construction_visual_title{
+  text-align: center;
+  font: bold 2.63em/300px 'Noto Sans KR';
+  color: white;
+}
+
+p#construction_visual_text{
+  width: 300px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -150px;
+  font: normal 20px 'Noto Sans KR';
+  color: white;
+}
+
+
+
+
+div#construction_title_wrap{
+  width: 100%;
+  height: 130px;
+  padding: 30px 0px;
+  margin-top: 180px;
+  box-sizing: border-box;
+}
+
+p#construction_top_title{
+  width: 56px;
+  height: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+p#construction_top_title>span{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  
+}
+
+span#span_first{
+  background-color: black;
+}
+span#span_second{
+  background-color: #0B4DC5;
+}
+span#span_third{
+  background-color: #39A1AB;
+}
+
+
+p#construction_title{
+  width: 100%;
+  height: auto;
+  font: bold 2em/60px 'Inter';
+  text-align: center;
+}
+
+
+div#construction_step_wrap{
+  width: 100%;
+  min-height: 1000px;
+  padding: 0px 320px;
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* background-color: red; */
+}
+
+
+ul#construction_step_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul#construction_step_list>li{
+  width: 30%;
+  height: 600px;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+ul#construction_step_list>li:nth-child(3n){
+  margin-right: 0px;
+}
+
+p.construction_step_img{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+p.construction_step_img>img{
+  width: 100%;
+  height: auto;
+
+  transition: 0.5s;
+}
+
+
+p.construction_step_img>img:hover{
+  transform: scale(1.1,1.1);
+}
+
+
+
+p.construction_step{
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0B4DC5;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-family: Inter;
+}
+
+p.construction_step_title{
+  font: bold 18px/30px 'Inter';
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p.construction_step_text{
+  font: normal 16px/30px 'Inter';
+  color: #8a8a8a;
+  text-align: center;
+}
+
+div#construction_photo_wrap{
+  width: 100%;
+  padding: 0px 320px;
+  box-sizing: border-box;
+  height: 400px;
+  margin-top: 200px;
+  /* background-color: red; */
+}
+
+div.construction_photo_text_wrap{
+  width: auto;
+  height: auto;
+  margin: 180px auto;
+}
+
+p.construction_photo_text{
+  font: normal 20px/30px 'Inter';
+  text-align: center;
+}
+
+p.construction_photo_text>span{
+  color: #0B4DC5;
+  font-size: 24px;
+  font-weight: bold;
+}
