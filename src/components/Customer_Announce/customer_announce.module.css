@@ -1,0 +1,51 @@
+div#customer_announcement_wrap{
+  width: 100%;
+  height: 380px;
+
+}
+
+ul#customer_announcement_list{
+  width: 100%;
+  height: 100%;
+}
+
+li#customer_announcement_title{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  font: bold 18px/70px 'Noto Sans KR';
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+div.customer_announcement_Num{
+  flex: 2;
+  min-width: 45px;
+}
+
+div.customer_announcement_sub_title{
+  flex: 18;
+}
+
+div.customer_announcement_writer{
+  flex: 3;
+}
+
+div.customer_announcement_date{
+  flex: 3;
+}
+
+div.customer_announcement_search{
+  flex: 2;
+}
+
+
+
+li.customer_announcement_text{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  font: normal 18px/60px 'Noto Sans KR';
+  text-align: center;
+  /* border-top: 1px solid black; */
+}

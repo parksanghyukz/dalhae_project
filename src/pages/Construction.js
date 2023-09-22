@@ -23,10 +23,13 @@ export default function Construction() {
   const [allConstruction, setAllConstruction] = useState([])
 
   useEffect(()=>{
+    window.scrollTo(0,0)
     axios.get('/data/construction.json').then((res)=>{
       setAllConstruction(res.data)
     })
   },[])
+
+  
 
 
   return (
